@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+	font-family: 'Lora', serif;
+	background-color: rgb(240, 240, 240);
+}
+
+h1, h2, h3, h4, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #575F7D;
+	font-size: 40px;
+}
+
+h2{
+	color: #7ECE90;
+}
+
+a{
+	text-decoration: none;
+}
+
+.card-white {
+	background-color: white;
+	padding: 48px;
+	margin: 16px auto;
+	width: 700px;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 2px #0000007D;
+}
+
+.img-circle {
+	border-radius: 50%;
+	height:  150px;
+	width:  150px;
+	object-fit: cover;
+}
+
+.button-blue{
+	background-color: blue;
+	color: white;
+	padding: 12px 8px;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 16px auto;
+	display: block;
+	width: 15%;
+	border:  1px solid blue;
+	transition: 0.5s;
+}
+
+.button-blue:hover {
+	background-color: white;
+	color: blue;
+	transition: 0.5s;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.list-inline {
+	padding: 0;
+}
+
+.list-inline a {
+	font-size: 40px;
+	color: rgba(0, 0, 255, 1);
+}
+
+.list-inline a:hover {
+	color: rgba(0, 0, 255, 0.4);
+	transition: 0.1s;
+}
